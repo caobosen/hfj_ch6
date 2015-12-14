@@ -76,6 +76,7 @@ public class GameHelper {
 		
 		while(x<comSize){
 			grid[coords[x]]=1;
+			System.out.println(coords[x]);
 			row = (int)(coords[x]/gridLength);
 			column = coords[x]%gridLength;
 			temp = String.valueOf(alphabet.charAt(column));
